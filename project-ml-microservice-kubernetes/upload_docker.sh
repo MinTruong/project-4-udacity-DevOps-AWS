@@ -4,12 +4,14 @@
 # Assumes that an image is built via `run_docker.sh`
 
 # Step 1:
+# login ECR aws
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 657224673055.dkr.ecr.us-east-1.amazonaws.com
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=657224673055.dkr.ecr.us-east-1.amazonaws.com/project4
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
-# Push image to a docker repository
+docker push "$dockerpath":latest
