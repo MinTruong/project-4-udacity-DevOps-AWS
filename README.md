@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Cloud DevOps ND - C4- Microservices at Scale using AWS & Kubernetes - Supporting Material and Project Starter
 
 This repository is associated with Cloud DevOps ND - Course 04 - Microservices at Scale using AWS & Kubernetes. In here, you'll find:
@@ -120,3 +121,6 @@ Your code has been rated at 10.00/10
 
 That's about it! When working with kubernetes, you may need to install some other libraries, but these instructions will set you up with an environment that can build and deploy Docker containers.
 
+=======
+# project-4-udacity-DevOps-AWS
+>>>>>>> ac189d6d3eb6921e4e8313d1dac3c3d059a8d43d
