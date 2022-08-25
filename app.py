@@ -54,6 +54,7 @@ def predict():
         
         """
     
+    clf = joblib.load("./model_data/boston_housing_prediction.joblib")
     # Logging the input payload
     json_payload = request.json
     LOG.info(f"JSON payload: \n{json_payload}")
